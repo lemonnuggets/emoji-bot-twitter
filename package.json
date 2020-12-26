@@ -1,0 +1,23 @@
+{
+  "name": "emoji-bot-twitter",
+  "version": "1.0.0",
+  "description": "A bot that posts tweets to twitter to increase the usage of the least used emojis.",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "twitter",
+    "emoji",
+    "emojitracker"
+  ],
+  "author": "Adam Jijo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eventsource": "^1.0.7",
+    "node-fetch": "^2.6.1",
+    "twit": "^2.2.11"
+  }
+}
